@@ -96,9 +96,14 @@ Follow these steps exactly to run the project without issues:
 1. Create a Virtual Environment (Recommended)
    python -m venv venv
 
-   .**Windows**
+   Activate it:
+
+    1. **Windows**:
+
         venv\Scripts\activate
-   .**Mac**
+    
+    2. **Mac**:
+
         source venv/bin/activate
 2. Install Required Libraries
    pip install numpy pandas matplotlib seaborn scikit-learn jupyter
